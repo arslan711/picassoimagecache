@@ -45,7 +45,7 @@ public class RoundTransform implements Transformation {
         int height = source.getHeight();
 
         Bitmap bitmap = Bitmap.createBitmap(width, height, Bitmap.Config.ARGB_8888);
-
+//
         Canvas canvas = new Canvas(bitmap);
         Paint paint = new Paint();
         paint.setAntiAlias(true);
